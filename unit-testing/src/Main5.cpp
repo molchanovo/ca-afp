@@ -133,7 +133,6 @@ void runAllTests(const std::vector<std::function<int()>> testFns)
 
 // Test input utilities
 
-//std::string concatStrings(const int strsN, const char* strs[])
 std::string concatStrings(const std::vector<std::string> strs)
 {
   std::string result;

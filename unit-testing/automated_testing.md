@@ -569,7 +569,6 @@ int test(const std::string& name, const std::string& input, const std::string& e
 
 // Test input utilities
 
-//std::string concatStrings(const int strsN, const char* strs[])
 std::string concatStrings(const std::vector<std::string> strs)
 {
   std::string result;
