@@ -65,6 +65,7 @@ void run(const std::string& inputFile)
   if (!inputStream.is_open())
     {
       std::cout << "Error opening file \'" << inputFile << "\': " << std::strerror(errno) << std::endl;
+      exit(1);
     }
 
   char ch;
@@ -233,6 +234,12 @@ int main(int argc, char* argv[])
 1B 11 XX XX XX D6
 XC X7 65
 XD 43 XX XX XA A1
+```
+
+Вивід:
+
+```
+Test passed
 ```
 
 ### Масштабування: багато тестів
